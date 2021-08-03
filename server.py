@@ -1,7 +1,7 @@
 import config
 from flask import Flask
-from development import Bot as TestBot
-from production import Bot as MainBot
+from .development import Bot as TestBot
+from .production import Bot as MainBot
 import os
 import logging
 
