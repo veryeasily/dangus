@@ -20,6 +20,8 @@ async-timeout==3.0.1
     # via aiohttp
 attrs==21.2.0
     # via aiohttp
+backcall==0.2.0
+    # via ipython
 black==21.7b0
     # via -r requirements.in
 cachetools==4.2.2
@@ -37,6 +39,8 @@ click==8.0.1
     #   black
     #   flask
     #   sacremoses
+decorator==5.0.9
+    # via ipython
 executing==0.8.0
     # via snoop
 fancycompleter==0.9.1
@@ -69,8 +73,12 @@ idna==3.2
     # via
     #   requests
     #   yarl
+ipython==7.27.0
+    # via -r requirements.in
 itsdangerous==2.0.1
     # via flask
+jedi==0.18.0
+    # via ipython
 jinja2==3.0.1
     # via flask
 joblib==1.0.1
@@ -79,6 +87,8 @@ markdown==3.3.4
     # via tensorboard
 markupsafe==2.0.1
     # via jinja2
+matplotlib-inline==0.1.2
+    # via ipython
 multidict==5.1.0
     # via
     #   aiohttp
@@ -100,18 +110,28 @@ packaging==21.0
     #   pytorch-lightning
     #   torchmetrics
     #   transformers
+parso==0.8.2
+    # via jedi
 pathspec==0.9.0
     # via black
 pdbpp==0.10.3
     # via -r requirements.in
+pexpect==4.8.0
+    # via ipython
+pickleshare==0.7.5
+    # via ipython
 pillow==8.3.1
     # via pytorch-lightning
 praw==7.4.0
     # via -r requirements.in
 prawcore==2.3.0
     # via praw
+prompt-toolkit==3.0.20
+    # via ipython
 protobuf==3.17.3
     # via tensorboard
+ptyprocess==0.7.0
+    # via pexpect
 pyasn1==0.4.8
     # via
     #   pyasn1-modules
@@ -122,6 +142,7 @@ pydeprecate==0.3.0
     # via pytorch-lightning
 pygments==2.9.0
     # via
+    #   ipython
     #   pdbpp
     #   snoop
 pyparsing==2.4.7
@@ -194,6 +215,10 @@ tqdm==4.61.2
     #   pytorch-lightning
     #   sacremoses
     #   transformers
+traitlets==5.1.0
+    # via
+    #   ipython
+    #   matplotlib-inline
 transformers==4.8.2
     # via aitextgen
 typing-extensions==3.10.0.0
@@ -205,6 +230,8 @@ update-checker==0.18.0
     # via praw
 urllib3==1.26.6
     # via requests
+wcwidth==0.2.5
+    # via prompt-toolkit
 websocket-client==1.1.0
     # via praw
 werkzeug==2.0.1

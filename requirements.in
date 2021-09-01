@@ -4,6 +4,7 @@ aitextgen
 black
 flask
 gunicorn
+ipython
 numpy
 pdbpp
 praw
